@@ -11,8 +11,4 @@ public class Frog extends Amphibian {
         System.out.println("Я передвигаюсь по суше прыжками.");
     }
 
-    @Override
-    public String getColor() {
-        return color;
-    }
 }

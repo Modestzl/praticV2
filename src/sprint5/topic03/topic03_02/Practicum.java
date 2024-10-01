@@ -9,7 +9,7 @@ public class Practicum {
         frog.move();
 
         Toad toad = new Toad();
-        System.out.println("Привет! Я - " + frog.getColor() + " жаба.");
+        System.out.println("Привет! Я - " + toad.getColor() + " жаба.");
         toad.move();
     }
 }

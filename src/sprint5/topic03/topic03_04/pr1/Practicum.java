@@ -23,11 +23,11 @@ public class Practicum {
         getPhone(type, number).makeCall(friendNumber);
     }
 
-    public static void getPhone(int type, String number) {
+    public static Phone getPhone(int type, String number) {
         if (type == 1) {
             // если выбран стационарный телефон, создайте объект класса LandlinePhone
             return new LandlinePhone(number);
-        } else if (type == 1) {
+        } else if (type == 2) {
             // если выбран мобильный телефон, создайте объект класса MobilePhone
             return new MobilePhone(number);
         } else {
@@ -35,3 +35,4 @@ public class Practicum {
             return new Smartphone(number);
         }
     }
+}

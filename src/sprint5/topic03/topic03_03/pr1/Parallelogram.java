@@ -7,5 +7,6 @@ public abstract class Parallelogram implements Figure{
         this.a = a;
         this.h = h;
     }
+
     public abstract double getArea();
 }
