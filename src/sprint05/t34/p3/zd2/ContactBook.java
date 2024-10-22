@@ -1,4 +1,7 @@
 package sprint05.t34.p3.zd2;
+
+import java.util.ArrayList;
+
 // Ограничьте класс ContactBook так, чтобы он могу хранить в себе только список контактов
 public class ContactBook extends Contact {
         public ContactBook() {
@@ -7,7 +10,7 @@ public class ContactBook extends Contact {
         // Объявите поле класса contacts - список контактов книги
         ...
 
-public void addContact(... contact) {
+public void addContact(ArrayList<> contact) {
         contacts.add(contact);
         }
 

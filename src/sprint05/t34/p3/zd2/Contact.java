@@ -9,7 +9,7 @@ public abstract class Contact {
     }
 
     // И два метода - sendMessage() для отправки сообщения и print() для печати информации о контакте
-        public abstract String sendMessage();
-        public abstract String print();
+        public abstract  void sendMessage();
+        public abstract void print();
 
         }
