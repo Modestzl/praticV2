@@ -26,7 +26,6 @@ class ArrayUtils {
         int count = 0;
         for(T l : list) count++;
         return count;
-
     }
 
 }
